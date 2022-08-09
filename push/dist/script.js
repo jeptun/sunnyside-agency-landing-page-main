@@ -1,0 +1,2 @@
+function myFunction(){var e=document.getElementById("myTopnav");"header-nav-wrapper"===e.className?e.className+=" responsive":e.className="header-nav-wrapper"}const testString="Javascript test!";console.log(testString);const fruits=["😀","✨","💀"];fruits.map((e=>{console.log(e)}));
+//# sourceMappingURL=script.js.map

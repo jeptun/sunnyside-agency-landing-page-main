@@ -1,0 +1,31 @@
+@use "../globals/" as g;
+@use "../util/" as u;
+@use "../mixin/" as m;
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: u.rem(40);
+}
+.footer-links,
+.footer-logos{
+    display: flex;
+    justify-content: space-between;
+    gap: u.rem(30);
+    color: hsl(var(--moderate-cyan));
+    &:hover,
+    &:focus{
+        color: hsl(var(--white)); 
+    }
+}
+a.footer-link,
+a.footer-logo{
+    text-decoration: none; 
+    color: hsl(var(--moderate-cyan));
+    &:hover,
+    &:focus{
+        color: hsl(var(--white)); 
+    }
+}
